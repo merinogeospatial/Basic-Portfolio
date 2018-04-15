@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #E89F0C;
+}
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -31,14 +35,14 @@ header {
     color: white;
     float: left;
     padding: 10px 20px;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 #links {
     float: right;
     margin: 20px;
     padding: 10px;
-    margin-right: 10%;
+    margin-right: 20%;
  
 }
 
@@ -63,7 +67,7 @@ img {
 }
 
 .container {
-    margin: 30px 10%;
+    margin: 30px 20%;
     background-color: white;
     padding: 20px;
     overflow: auto;
@@ -128,7 +132,28 @@ img {
     color: white;
     text-align: center;
     line-height: 3;
- 
 }
 
+.img-banner:hover {
+    background-color: #E89F0C;
+}
 
+/* CONTACT PAGE TARGETED */
+
+input,
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+color: white;
+background-color: #4aaaa5;
+height: 30px;
+width: 90px;
+}
+
+button:hover {
+    background-color: #E89F0C;
+}
