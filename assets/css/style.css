@@ -47,6 +47,7 @@ header {
 }
 
 .pipe {
+    padding-right: 10px;
     border-right: #cccccc 1px solid;
 }
 
@@ -111,4 +112,16 @@ img {
     width: 224px;
     margin: 10px;
     position: relative;
+}
+
+.img-banner {
+    position: absolute;
+    width: 224px;
+    height: 20%;
+    bottom: 0;
+    left: 0;
+    float: inherit;
+    background-color: #4aaaa5;
+    color: #cccccc;
+    text-align: center;
 }
