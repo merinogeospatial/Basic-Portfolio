@@ -113,16 +113,22 @@ img {
     width: 224px;
     margin: 10px;
     position: relative;
+    line-height: 1;
 }
 
 .img-banner {
     position: absolute;
+    margin: auto;
     width: 224px;
     height: 20%;
-    bottom: 0;
+    bottom: 20px;
     left: 0;
     float: inherit;
     background-color: #4aaaa5;
-    color: #cccccc;
+    color: white;
     text-align: center;
+    line-height: 3;
+ 
 }
+
+
