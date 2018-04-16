@@ -37,6 +37,9 @@ header {
     padding: 10px 20px;
     margin-left: 20%;
 }
+header:hover {
+    background-color: #E89F0C;
+}
 
 #links {
     float: right;
